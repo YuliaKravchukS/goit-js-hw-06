@@ -6,18 +6,18 @@ class Storage {
     this.#items = items;
   }
   getItems() {
-  return this.#items;
+    return this.#items;
   }
 
   addItem(newItem) {
-  this.#items.push(newItem);
+    this.#items.push(newItem);
   }
 
   removeItem(itemToRemove) {
     const indexToRemove = this.#items.indexOf(itemToRemove);
     if (indexToRemove !== -1) {
     this.#items.splice(indexToRemove, 1)
-    };
+  };
 
   }
 

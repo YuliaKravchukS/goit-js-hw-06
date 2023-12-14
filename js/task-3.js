@@ -2,7 +2,7 @@
 'use strict';
 
 class StringBuilder {
-    #value 
+    #value; 
 
     constructor(initialValue) {
         this.#value = initialValue;
